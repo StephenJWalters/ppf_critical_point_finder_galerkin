@@ -66,7 +66,7 @@ extremely tight convergence tolerances and to cleanly separate genuine truncatio
 ## Building
 
 ```bash
-gfortran critical_point_finder_analytic.f90 -O3 -o finder
+gfortran critical_point_finder_galerkin.f90 -O3 -o finder
 ```
 
 ## Running
