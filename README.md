@@ -18,8 +18,7 @@ and finds the true critical parameters with at least 28 significant digits.
 ## Background
 
 The Orr–Sommerfeld equation governs the linear stability of parallel shear flows. Discretising
-it with a Chebyshev-Galerkin (NSC) basis that satisfies the no-slip boundary conditions
-exactly turns the eigenvalue problem into a generalized matrix eigenvalue problem
+it with a Chebyshev-Galerkin (NSC) basis that satisfies the no-slip boundary conditions exactly turns the eigenvalue problem into a generalized matrix eigenvalue problem
 
 ```
 A(alpha, Re) q = lambda B(alpha) q,      c = lambda / Re
@@ -57,7 +56,7 @@ extremely tight convergence tolerances and to cleanly separate genuine truncatio
 
 | File | Description |
 |---|---|
-| `critical_point_finder_analytic.f90` | Main program and module (`finder_mod`) |
+| `critical_point_finder_galerkin.f90` | Main program and module (`finder_mod`) |
 
 ## Requirements
 
